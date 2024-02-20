@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-imvy
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0038-tenant/tkrw-pr712-0075-0038-app/devfile-sample-imvy@sha256:68750702a1b30e91f07d3373b1f749e04ccc1f158408b4b51c453148c7c9138a
         name: my-nodejs
         ports:
         - containerPort: 3001
